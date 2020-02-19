@@ -27,11 +27,12 @@
 
     f. Initialise  Keys class in ViewController.
     Place your Vuforia keys, back button image name from your Assets.xcassets and unique device ID in keysDict.
-    Note :  All Keys and values are Required and should be proper
+    
+    *Note* :  All Keys and values are Required and should be proper
     
     ```swift
       let keys = Keys()
-      let keysDict : NSDictionary = ["license_key":"you_license_key","client_access":"your_ client_access","client_secret":"your_ client_secret","buttonBackimg":"your_back_button_image_Name_Assets.xcassets","deviceid":"mobile_udid"];
+      let keysDict : NSDictionary = ["license_key":"<vuforia_license_key>","client_access":"<vuforia_client_access>", "client_secret":"<vuforia_ client_secret>", "buttonBackimg":"<your_back_button_image_Name_Assets.xcassets>", "deviceid":"<mobile_udid>"];
       keys.sendKeys(keys: keysDict)
     ```
 
