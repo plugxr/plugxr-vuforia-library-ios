@@ -1,0 +1,2 @@
+UnityFramework.framework/UnityFramework filter=lfs diff=lfs merge=lfs -text
+Vuforia.framework/Vuforia filter=lfs diff=lfs merge=lfs -text
