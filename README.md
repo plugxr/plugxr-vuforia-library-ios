@@ -1,4 +1,4 @@
-# vuforia-library-ios
+# plugxr-vuforia-library-ios
 
 1. Clone Repository
 
