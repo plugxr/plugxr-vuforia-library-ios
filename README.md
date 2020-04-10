@@ -32,7 +32,7 @@
     
     ```swift
       let keys = Keys()
-      let keysDict : NSDictionary = ["license_key":"<vuforia_license_key>","client_access":"<vuforia_client_access>", "client_secret":"<vuforia_ client_secret>", "buttonBackimg":"<your_back_button_image_Name_Assets.xcassets>", "deviceid":"<mobile_udid>"];
+      let keysDict : NSDictionary = ["license_key":"<vuforia_license_key>","client_access":"<vuforia_client_access>", "client_secret":"<vuforia_ client_secret>"];
       keys.sendKeys(keys: keysDict)
     ```
 
@@ -48,4 +48,9 @@
               self.present(unityWindow, animated: true, completion: nil)
        }
     ```
-   
+    
+    h. Add camera and photo library permissions in `Info.plist`.
+    
+        `Privacy - Camera Usage Description - Allow Camera for AR`
+        
+        `Privacy - Photo Library Usage Description - Allow to save screenshots`
