@@ -51,6 +51,6 @@
     
     h. Add camera and photo library permissions in `Info.plist`.
     
-        `Privacy - Camera Usage Description - Allow Camera for AR`
+        Privacy - Camera Usage Description - Allow Camera for AR
         
-        `Privacy - Photo Library Usage Description - Allow to save screenshots`
+        Privacy - Photo Library Usage Description - Allow to save screenshots
